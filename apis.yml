@@ -1,9 +1,28 @@
 aid: meditopia
 name: Meditopia
-description: 'Meditopia is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Meditopia is a holistic mental-wellbeing platform founded in 2017 that blends psychology,
+  technology, and wellness to support the mental, emotional, and physical health of individuals and
+  organizations. For consumers it ships a meditation and mindfulness mobile app (sleep programs, guided
+  meditations, personalized assessments, self-guided content) available in nine-plus languages and used
+  by 40+ million people across 60 countries. For organizations it offers Meditopia for Work: a modern
+  Employee Assistance Program (EAP), 1-on-1 expert sessions, a WellnessPass benefits platform, online
+  trainings, and Soul, an AI wellbeing coach. Meditopia is backed by Creandum. The company operates a
+  consumer mobile app and a B2B web platform; it does not currently publish a public developer API,
+  OpenAPI, developer portal, or /.well-known discovery surface. This profile was surfaced as a Creandum
+  portfolio company and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/meditopia/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5e69e7d533b1136fa45de350/670539f9c90efd6465013b0c_white_logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Mental Health
+- Wellbeing
+- Meditation
+- Wellness
+- Employee Assistance Program
+- Digital Health
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/meditopia-domain-security.yml
 - type: Website
   url: https://meditopia.com/en/
+- type: Pricing
+  url: https://meditopia.com/en/plans
+- type: PrivacyPolicy
+  url: https://meditopia.com/en/privacy-policy
+- type: TermsOfService
+  url: https://meditopia.com/en/terms-and-conditions
+- type: HelpCenter
+  url: https://help.meditopia.com/en
+- type: Blog
+  url: https://meditopia.com/en/blog
+- type: Login
+  url: https://webapp.meditopia.com/en/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
